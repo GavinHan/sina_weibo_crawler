@@ -19,5 +19,5 @@ login:
   - username: 'xxx'
     password: 'xxx'
 startUid: ["xxx"]
-
+mypath: 'C:\'
 instance_index: 0

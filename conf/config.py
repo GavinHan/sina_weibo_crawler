@@ -25,5 +25,6 @@ mongo_port = config['mongo']['port']
 db_name = config['db']
 
 instances = config['instances']
+mypath = config['mypath']
 
 instance_index = config['instance_index']

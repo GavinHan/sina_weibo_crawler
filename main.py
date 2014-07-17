@@ -9,7 +9,7 @@ import time, datetime
 from crawler.crawler import UserCrawler
 from crawler.storage import MongoStorage, FileStorage
 from crawler.login import WeiboLogin
-from conf.config import login_list, startUid
+from conf.config import login_list, startUid, mypath
 from crawler.log import logger
             
 mythreads = range(3)
@@ -83,7 +83,7 @@ if __name__ == "__main__":
     sys.setdefaultencoding('utf-8')
 
     db = 'mongo'
-    folder = 'D:\codes\crawler\weibocrawler\data'
+    folder = mypath
     uids = startUid
     main(db=db, folder=folder, uids=uids)
     
